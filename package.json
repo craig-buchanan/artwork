@@ -1,0 +1,22 @@
+{
+  "name": "Artwork",
+  "version": "0.0.1",
+  "description": "\"Model for storing artwork and exhibition info\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craig-buchanan/artwork.git"
+  },
+  "author": "Craig Buchanan <craig.buchanan.is@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craig-buchanan/artwork/issues"
+  },
+  "homepage": "https://github.com/craig-buchanan/artwork",
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}
