@@ -4,7 +4,9 @@
   "description": "\"Model for storing artwork and exhibition info\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "bin/coffee-compile.sh",
+    "pretest": "bin/coffee-compile.sh",
+    "test": "node_modules/.bin/nodeunit test" 
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/craig-buchanan/artwork",
   "devDependencies": {
-    "coffee-script": "^1.8.0"
+    "chai": "^1.9.1",
+    "coffee-script": "^1.8.0",
+    "mocha": "^1.21.4",
+    "nodeunit": "^0.9.0"
   }
 }
